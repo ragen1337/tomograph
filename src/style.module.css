@@ -1,0 +1,43 @@
+.mainPageWrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #7b7be3;
+
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 200px auto;
+}
+
+.schemeSwitcher {
+    margin-top: 30px;
+
+    width: 400px;
+    height: 100px;
+
+    background-color: whitesmoke;
+
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px;
+
+    border: 2px blueviolet dashed;
+    border-radius: 15px;
+
+    overflow: hidden;
+    justify-self: center;
+}
+
+.switcherVariant {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    font-size: 23px;
+}
